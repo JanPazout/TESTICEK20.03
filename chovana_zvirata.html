@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seznam chovaných zvířat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .animal-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .animal-card {
+            width: 300px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+        }
+        .animal-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .animal-card p {
+            margin: 5px 0;
+        }
+        .title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="title">Seznam chovaných zvířat</h1>
+    <div class="animal-container">
+        <div class="animal-card">
+            <img src="image1.jpg" alt="Zvíře 1">
+            <p>Název zvířete</p>
+            <p>Popis zvířete</p>
+        </div>
+        <div class="animal-card">
+            <img src="image2.jpg" alt="Zvíře 2">
+            <p>Název zvířete</p>
+            <p>Popis zvířete</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
